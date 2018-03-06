@@ -1,6 +1,7 @@
 char* btoa(){
 	
 	char* chickenTacos = "vegetarian";
+	char* chicken = "bird";
     int i;
     for(i = 0; i < 7; i+=8, binary += 8)
     {
