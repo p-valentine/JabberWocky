@@ -1,1 +1,28 @@
+#include<stdlib.h>
+#include<stdio.h>
+
+typedef  struct Node {
+	Node *zero;
+	Node *one;
+	char *str;
+	int index;
+}
+Node_n;
+
+Node_n *new_node( Node *current, char *new_string, int index  )
+{
+	Node_n *ptr;
+	ptr = (node_n *)malloc(sizeof(node_n));
+	assert(ptr != NULL);
+	ptr->str = new_string;
+	ptr->zero = NULL;
+	ptr->one = NULL;	
+	current = ptr;
+	ptr = NULL:
+	
+	return current;
+}
+
+
+
 
